@@ -176,10 +176,12 @@
 .first-input:focus ~ .focus-div {
 	outline: 2px solid black;
 }
-.second-navbar-button p{
+.second-navbar-button h4{
+	color: gray;
+	text-align: center;
 	text-decoration: none;
 	width: 100%-1;
-	height: 20px;
+	height: 30px;
 	border: none;
 	background-color: rgb(212, 212, 212);
 	margin-top: 9px;
