@@ -97,12 +97,12 @@
 	flex-wrap: wrap;
 	display: none;
 }
-.test{
+.triang{
 	visibility: hidden;
 	opacity: -1;
 }
-.test::before,
-.test::after {
+.triang::before,
+.triang::after {
 	content: '';
 	position: absolute;
 	top: 40px;
@@ -112,10 +112,10 @@
 	border-bottom: 15px solid rgb(179, 179, 179);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.test::before {
+.triang::before {
 	box-shadow: none;
 }
-.test::after {
+.triang::after {
 	top: 41px;
 	z-index: 1; /* Накладываем поверх, чтобы скрыть следы тени */
 	border-bottom: 15px solid #fff;
@@ -133,7 +133,7 @@
 	opacity: 1;
 	visibility: visible;
 }
-.first-input:checked ~ .test{
+.first-input:checked ~ .triang{
 	opacity: 1;
 	visibility: visible;
 }
